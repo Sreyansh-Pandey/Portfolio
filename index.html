@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sreyansh Pandey | Premium Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="particles-js" class="particle-background"></div>
+    <div id="scroll-progress"></div>
+    <div id="scroll-progress"></div>
+    <nav class="navbar">
+        <div class="logo">SP.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#what-i-do">Services</a></li>
+            <li><a href="#tools">Tools</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="mode-toggle-container">
+            <span class="mode-label">Sakura</span>
+            <label class="switch">
+                <input type="checkbox" id="data-mode-toggle">
+                <span class="slider round"></span>
+            </label>
+            <span class="mode-label">Data</span>
+        </div>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero section parallax-bg">
+        <div class="container hero-container">
+            <div class="hero-image fade-in parallax-el" data-speed="0.8">
+                <div class="floating-wrapper">
+                    <div class="profile-frame premium-glow">
+                        <img src="https://drive.google.com/thumbnail?id=161ZQzxSiBV96HAM_S5X6GhF1lk8uKdME&sz=w1000"
+                            alt="Sreyansh Pandey" class="profile-img">
+                        <div class="profile-overlay"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-content center-aligned" style="text-align:center;">
+                <h1 class="glow-text fade-in parallax-el" data-speed="1.2">Sreyansh Pandey</h1>
+                <div class="tagline-wrapper fade-in parallax-el" data-speed="1.5"
+                    style="margin-bottom: 0.5rem; justify-content:center;">
+                    <span id="typed-tagline" class="role-text"
+                        style="font-size:1.5rem; text-transform:none;"></span><span class="typing-cursor"
+                        style="font-size:1.5rem;">|</span>
+                </div>
+                <p class="intro fade-in parallax-el" data-speed="1.8"
+                    style="margin: 1.5rem auto 3rem auto; max-width: 600px;">
+                    I analyze real-world data, build dashboards, and create intelligent systems that solve meaningful
+                    problems.
+                </p>
+                <div class="hero-buttons fade-in parallax-el" data-speed="2.0" style="justify-content:center;">
+                    <a href="#work" class="btn primary-btn mag-btn">View Projects</a>
+                    <button id="view-cv-btn" class="btn glass-btn mag-btn"><i class="fas fa-eye"
+                            style="margin-right: 8px;"></i> View CV</button>
+                    <a href="#contact" class="btn secondary-btn mag-btn">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider fade-in"></div>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about section">
+        <div class="container fade-in">
+            <h2 class="section-title">About Me</h2>
+            <div class="glass-card about-card">
+                <p>I am a Computer Science undergraduate at Lovely Professional University, currently pursuing my B.Tech
+                    in Computer Science and Engineering with a CGPA of 7.09.</p>
+
+                <p>I have a strong interest in Data Science and Analytics, with a focus on extracting meaningful
+                    insights from real-world datasets. I enjoy working on data cleaning, preprocessing, and
+                    visualization to transform raw data into actionable information.</p>
+
+                <p>My work reflects a practical approach to problem-solving, where I build dashboards, analyze large
+                    datasets, and develop intelligent systems such as chatbots to address real-world challenges. I am
+                    particularly interested in understanding patterns in data, improving decision-making processes, and
+                    presenting insights through intuitive visualizations.</p>
+
+                <p>With hands-on experience in Python, SQL, Excel, and Power BI, I continuously aim to strengthen my
+                    analytical thinking and technical skills while building impactful data-driven projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider fade-in"></div>
+
+    <!-- WHAT I DO SECTION -->
+    <section id="what-i-do" class="services section">
+        <div class="container fade-in">
+            <h2 class="section-title">What I Do</h2>
+            <div class="services-grid">
+
+                <div class="glass-card service-card">
+                    <i class="fas fa-database service-icon"></i>
+                    <h3>Data Analysis</h3>
+                    <p>I analyze structured and unstructured datasets to uncover patterns, trends, and meaningful
+                        insights.</p>
+                </div>
+
+                <div class="glass-card service-card">
+                    <i class="fas fa-chart-pie service-icon"></i>
+                    <h3>Data Visualization</h3>
+                    <p>I create clear and interactive visualizations using tools like Matplotlib, Seaborn, and Excel
+                        dashboards.</p>
+                </div>
+
+                <div class="glass-card service-card">
+                    <i class="fas fa-lightbulb service-icon"></i>
+                    <h3>Problem Solving</h3>
+                    <p>I build practical solutions such as dashboards and chatbots to solve real-world problems using
+                        data.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider fade-in"></div>
+
+    <!-- TOOLS & TECHNOLOGIES SECTION -->
+    <section id="tools" class="tools section">
+        <div class="container fade-in">
+            <h2 class="section-title">Tools & Technologies</h2>
+            <div class="tools-grid">
+                <div class="tool-item" data-tooltip="Core Language">
+                    <i class="fab fa-python tooltip-icon"></i>
+                    <span>Python</span>
+                </div>
+                <div class="tool-item" data-tooltip="Data Wrangling">
+                    <i class="fas fa-table tooltip-icon"></i>
+                    <span>Pandas</span>
+                </div>
+                <div class="tool-item" data-tooltip="Numerical Processing">
+                    <i class="fas fa-cubes tooltip-icon"></i>
+                    <span>NumPy</span>
+                </div>
+                <div class="tool-item" data-tooltip="Data Viz Library">
+                    <i class="fas fa-chart-line tooltip-icon"></i>
+                    <span>Matplotlib</span>
+                </div>
+                <div class="tool-item" data-tooltip="Statistical Viz">
+                    <i class="fas fa-chart-area tooltip-icon"></i>
+                    <span>Seaborn</span>
+                </div>
+                <div class="tool-item" data-tooltip="ML Algorithms">
+                    <i class="fas fa-brain tooltip-icon"></i>
+                    <span>Scikit-learn</span>
+                </div>
+                <div class="tool-item" data-tooltip="Database Queries">
+                    <i class="fas fa-database tooltip-icon"></i>
+                    <span>SQL / MySQL</span>
+                </div>
+                <div class="tool-item" data-tooltip="Advanced Analysis">
+                    <i class="fas fa-file-excel tooltip-icon"></i>
+                    <span>Excel</span>
+                </div>
+                <div class="tool-item" data-tooltip="Interactive Dashboards">
+                    <i class="fas fa-chart-bar tooltip-icon"></i>
+                    <span>Power BI</span>
+                </div>
+                <div class="tool-item" data-tooltip="Version Control">
+                    <i class="fab fa-github tooltip-icon"></i>
+                    <span>Git & GitHub</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider fade-in"></div>
+
+    <!-- FEATURED WORK SECTION -->
+    <section id="work" class="projects section">
+        <div class="container fade-in">
+            <h2 class="section-title">Featured Work</h2>
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="glass-card project-card featured-project">
+                    <div class="featured-badge">Featured Project</div>
+                    <div class="project-content">
+                        <h3>Lok Sabha Data Analysis</h3>
+                        <p class="project-desc">Focus: Large-scale data analysis + insights.</p>
+                        <ul>
+                            <li>Analyzed 26,000+ election records</li>
+                            <li>Built visualizations for voter trends, gender distribution, and party performance</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span>Python</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Seaborn</span>
+                        </div>
+                        <a href="https://github.com/Sreyansh-Pandey/py" target="_blank" rel="noopener noreferrer"
+                            class="btn secondary-btn view-code-btn"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="glass-card project-card featured-project">
+                    <div class="featured-badge">Featured Project</div>
+                    <div class="project-content">
+                        <h3>Metal Dashboard</h3>
+                        <p class="project-desc">Focus: Interactive Excel visualization.</p>
+                        <ul>
+                            <li>Interactive Excel dashboard analyzing contamination data</li>
+                            <li>Used Pivot Tables, slicers, and charts</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span>Excel</span><span>Data Visualization</span>
+                        </div>
+                        <a href="https://github.com/Sreyansh-Pandey/COMMERCIAL-PERFORMANCE-DASHBOARD" target="_blank"
+                            rel="noopener noreferrer" class="btn secondary-btn view-code-btn"><i
+                                class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="glass-card project-card">
+                    <div class="project-content">
+                        <h3>Stress Management Chatbot</h3>
+                        <p class="project-desc">Focus: AI-driven conversational agent.</p>
+                        <ul>
+                            <li>AI chatbot using Google Gemini API</li>
+                            <li>Provides personalized stress-relief suggestions</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span>Python</span><span>Flask</span><span>API Integration</span><span>HTML/CSS</span>
+                        </div>
+                        <a href="https://github.com/Sreyansh-Pandey/Stress-Management-Bot" target="_blank"
+                            rel="noopener noreferrer" class="btn secondary-btn view-code-btn"><i
+                                class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider fade-in"></div>
+
+    <!-- EXPERIENCE & ACHIEVEMENTS SECTION -->
+    <section id="experience" class="education section">
+        <div class="container fade-in">
+            <h2 class="section-title">Experience & Achievements</h2>
+
+            <!-- TRAINING / EXPERIENCE SUBHEADING -->
+            <h3 class="timeline-subheading fade-in">Training / Experience</h3>
+            <div class="timeline-container edu-timeline">
+                <div class="timeline-item fade-in">
+                    <div class="edu-dot"><i class="fas fa-laptop-code"></i></div>
+                    <details class="timeline-content glass-card edu-card past-edu">
+                        <summary style="cursor: pointer; outline: none; list-style: none;">
+                            <span class="timeline-date">Jul 2025</span>
+                            <h3 style="display:inline-block; margin-left:1rem;">CodeQuest DSA Summer Bootcamp <i
+                                    class="fas fa-chevron-down"
+                                    style="font-size:0.8rem; margin-left:0.5rem; color:var(--sakura-pink);"></i></h3>
+                        </summary>
+                        <ul
+                            style="margin-top: 1rem; color: var(--text-secondary); font-size: 0.95rem; list-style-type: none; padding-left: 0; padding-top: 1rem; border-top: 1px solid rgba(255, 77, 141, 0.2);">
+                            <li style="margin-bottom: 0.5rem; padding-left: 1.2rem; position: relative;"><i
+                                    class="fas fa-angle-right"
+                                    style="position: absolute; left: 0; top: 4px; color:var(--sakura-pink);"></i>Hands-on
+                                experience with C++ programming</li>
+                            <li style="margin-bottom: 0.5rem; padding-left: 1.2rem; position: relative;"><i
+                                    class="fas fa-angle-right"
+                                    style="position: absolute; left: 0; top: 4px; color:var(--sakura-pink);"></i>Covered
+                                Arrays, Linked Lists, Stacks, Queues, Trees</li>
+                            <li style="margin-bottom: 0.5rem; padding-left: 1.2rem; position: relative;"><i
+                                    class="fas fa-angle-right"
+                                    style="position: absolute; left: 0; top: 4px; color:var(--sakura-pink);"></i>Strengthened
+                                problem-solving skills</li>
+                        </ul>
+                    </details>
+                </div>
+            </div>
+
+            <!-- CERTIFICATIONS SUBHEADING -->
+            <h3 class="timeline-subheading fade-in" id="certifications">Certifications</h3>
+
+            <div class="carousel-wrapper fade-in" style="margin-bottom: 3.5rem;">
+                <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+
+                <div class="certs-carousel">
+
+                    <div class="glass-card cert-card" data-cert-title="CodeQuest: DSA Summer Bootcamp"
+                        data-cert-link="https://drive.google.com/file/d/1it9Lb2Zfk9IOpEXvUK3tMQMIPYz5UF8g/preview">
+                        <div class="cert-thumbnail"
+                            style="background: linear-gradient(135deg, rgba(255, 77, 141, 0.2), rgba(124, 92, 255, 0.2));">
+                            <i class="fas fa-code cert-bg-icon"></i>
+                        </div>
+                        <div class="cert-overlay">
+                            <h3>CodeQuest: DSA Summer Bootcamp From Basics to Brilliance</h3>
+                            <button class="btn primary-btn view-cert-btn">View Certificate <i class="fas fa-play"
+                                    style="margin-left:8px; font-size:0.8rem;"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="glass-card cert-card" data-cert-title="Build Generative AI Apps and Solutions"
+                        data-cert-link="https://drive.google.com/file/d/1t2oOoQWSmEscO6ajxk4gKjczQpiJR2qf/preview">
+                        <div class="cert-thumbnail"
+                            style="background: linear-gradient(135deg, rgba(0, 240, 255, 0.2), rgba(124, 92, 255, 0.2));">
+                            <i class="fas fa-brain cert-bg-icon"></i>
+                        </div>
+                        <div class="cert-overlay">
+                            <h3>Build Generative AI Apps and Solutions with No-Code Tools</h3>
+                            <button class="btn primary-btn view-cert-btn">View Certificate <i class="fas fa-play"
+                                    style="margin-left:8px; font-size:0.8rem;"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="glass-card cert-card" data-cert-title="The Bits and Bytes of Computer Networking"
+                        data-cert-link="https://drive.google.com/file/d/1qbrbCGoZTM_1qEc7fAWWikYbHEjo9caR/preview">
+                        <div class="cert-thumbnail"
+                            style="background: linear-gradient(135deg, rgba(255, 183, 197, 0.2), rgba(255, 77, 141, 0.2));">
+                            <i class="fas fa-network-wired cert-bg-icon"></i>
+                        </div>
+                        <div class="cert-overlay">
+                            <h3>The Bits and Bytes of Computer Networking</h3>
+                            <button class="btn primary-btn view-cert-btn">View Certificate <i class="fas fa-play"
+                                    style="margin-left:8px; font-size:0.8rem;"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+
+            <!-- ACHIEVEMENTS SUBHEADING -->
+            <h3 class="timeline-subheading fade-in">Achievements</h3>
+            <div class="timeline-container edu-timeline">
+                <div class="timeline-item fade-in">
+                    <div class="edu-dot"><i class="fas fa-trophy"></i></div>
+                    <div class="timeline-content glass-card edu-card past-edu">
+                        <span class="timeline-date">Jul 2025</span>
+                        <h3>Participant, Adobe India Hackathon</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="section-divider fade-in"></div>
+
+    <!-- DEDICATED EDUCATION SECTION -->
+    <section id="education" class="education section">
+        <div class="container fade-in">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline-container edu-timeline">
+
+                <div class="timeline-item fade-in">
+                    <div class="edu-dot"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="timeline-content glass-card edu-card current-edu">
+                        <div class="badge-wrapper" style="margin-bottom: 0.8rem;">
+                            <span class="edu-badge"><i class="fas fa-star" style="margin-right:5px;"></i>Currently
+                                Pursuing</span>
+                        </div>
+                        <span class="timeline-date">Aug 2023 – Present</span>
+                        <h3>Lovely Professional University, Punjab, India</h3>
+                        <p class="edu-degree">Bachelor of Technology in Computer Science and Engineering</p>
+                        <p class="edu-score">CGPA: <span class="highlight-score">7.09</span></p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="edu-dot"><i class="fas fa-school"></i></div>
+                    <div class="timeline-content glass-card edu-card past-edu">
+                        <span class="timeline-date">Jun 2022 – May 2023</span>
+                        <h3>Netaji Centenary School, West Bengal, India</h3>
+                        <p class="edu-degree">Intermediate (PCM)</p>
+                        <p class="edu-score">Percentage: <span class="highlight-score">61%</span></p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="edu-dot"><i class="fas fa-school"></i></div>
+                    <div class="timeline-content glass-card edu-card past-edu">
+                        <span class="timeline-date">Jun 2020 – May 2021</span>
+                        <h3>Netaji Centenary School, West Bengal, India</h3>
+                        <p class="edu-degree">Matriculation</p>
+                        <p class="edu-score">Percentage: <span class="highlight-score">81%</span></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider fade-in"></div>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact section">
+        <div class="container fade-in">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="glass-card contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm open to discussing Data Analytics, Software Development, and Machine Learning opportunities.
+                    </p>
+                    <div class="social-links">
+                        <a href="mailto:sreyanshpandey18@gmail.com" target="_blank"><i class="fas fa-envelope"></i>
+                            sreyanshpandey18@gmail.com</a>
+                        <a href="https://github.com/Sreyansh-Pandey" target="_blank"><i class="fab fa-github"></i>
+                            GitHub</a>
+                        <a href="https://www.linkedin.com/in/sreyansh-pandey" target="_blank"><i
+                                class="fab fa-linkedin"></i> LinkedIn</a>
+                    </div>
+                </div>
+                <div class="glass-card contact-form">
+                    <form action="#" id="contact-form">
+                        <div class="input-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="input-group">
+                            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- UNIVERSAL PROJECT MODAL -->
+    <div id="project-modal" class="cv-modal-overlay">
+        <div class="cv-modal-content glass-card project-modal-layout">
+            <div class="cv-modal-header">
+                <h3 id="pm-title">Project Title</h3>
+                <div class="cv-modal-actions">
+                    <a href="#" id="pm-github" target="_blank" rel="noopener noreferrer"
+                        class="btn primary-btn modal-download-btn"><i class="fab fa-github"
+                            style="margin-right: 8px;"></i> View Code</a>
+                    <button id="close-project-modal" class="close-btn"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+            <div class="cv-modal-body project-modal-body">
+                <div id="pm-details" class="pm-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CV PREVIEW MODAL -->
+    <div id="cv-modal" class="cv-modal-overlay">
+        <div class="cv-modal-content glass-card">
+            <div class="cv-modal-header">
+                <h3>Resume Preview</h3>
+                <div class="cv-modal-actions">
+                    <a href="https://drive.google.com/uc?export=download&id=1VMFeqysfa16_8ohwcZq3YgnSz5bDyWtV"
+                        class="btn primary-btn modal-download-btn" download><i class="fas fa-download"
+                            style="margin-right: 8px;"></i> Download CV</a>
+                    <button id="close-cv-modal" class="close-btn"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+            <div class="cv-modal-body">
+                <iframe src="https://drive.google.com/file/d/1VMFeqysfa16_8ohwcZq3YgnSz5bDyWtV/preview"
+                    class="cv-iframe" allow="autoplay" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- CERTIFICATE PREVIEW MODAL -->
+    <div id="cert-modal" class="cv-modal-overlay">
+        <div class="cv-modal-content glass-card">
+            <div class="cv-modal-header">
+                <h3 id="cert-modal-title">Certificate Preview</h3>
+                <div class="cv-modal-actions">
+                    <a href="#" id="cert-download-btn" class="btn primary-btn modal-download-btn" target="_blank"
+                        rel="noopener noreferrer"><i class="fas fa-external-link-alt" style="margin-right: 8px;"></i>
+                        Open Full</a>
+                    <button id="close-cert-modal" class="close-btn"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+            <div class="cv-modal-body">
+                <iframe id="cert-iframe" src="" class="cv-iframe" allow="autoplay" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("aDg_dqQNlxHVNlgWN");
+        })();
+    </script>
+    <script src="particles.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
